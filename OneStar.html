@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.star {
+  position: relative;
+  display: inline-block;
+  color: red;
+  font-size: 100px;
+}
+
+.star:before, .star:after {
+  content: '\2605';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: red;
+}
+
+.star:before {
+  color: transparent;
+  -webkit-text-stroke: 5px red; /* width and color */
+}
+
+.star:after {
+  transform: rotateY(180deg);
+}
+</style>
+</head>
+<body>
+
+<div class="star"></div>
+
+</body>
+</html>
