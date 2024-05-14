@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Display</title>
+</head>
+<body>
+    <div id="number-display"></div>
+
+    <script>
+        let a = [3, 8, 5, 9, 2];
+        let index = 0; 
+        let displayDiv = document.getElementById('number-display');
+
+        function displayNumber() {
+            if (index < a.length) {
+                displayDiv.textContent += a[index] + " ";   index++;
+                setTimeout(displayNumber, 2000);  // 
+            }
+        }
+
+        displayNumber();  
+    </script>
+</body>
+</html>
