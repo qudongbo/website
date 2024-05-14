@@ -1,0 +1,39 @@
+let p = instructions [k];   console.log(p);\
+if(p == null) return;
+let s = p[0];
+let d=p[1];
+let topid = stack[s].pop();
+let disk =My.$('layer'+topid);
+let x0=disk.style.left;
+let y0=disk.style.top;
+
+let x1=((screen.width-TOPWIDTH)/2.5* d)+'px';
+let y1=(N*THICKNESS)+'px';
+let q= stack[d];
+if(q.length>0)
+{
+let topid1 = q[q.length-1];
+let disk1 =My.$('layer' +topid1);
+x1 = diskl.style.left;
+y1 = disk1.style.top;
+y1 =(parseInt(y1.substring(0，y1.length-2)) - THICKNESS) + 'px';
+}
+q.push(topid);
+diskmovek(0%{left:X;top:Y}\n100%{left:U;top:V}}";
+L= kftext.replace(/K/，k).replace(/X/,x0).replace(/Y/,y0)
+diskmove" +k+"1s 1";
+
+ions.length;i++)
+
+
+
+
+
+
+
+
+
+
+
+
+
